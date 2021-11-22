@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
 
     #{&}__paragraph {
-        font-weight: map-get($font-weights, bold);  
+        font-weight: map-get($font-weights, bold); 
+        
+        &:hover {
+            color: pink;
+        }
     }
 }
