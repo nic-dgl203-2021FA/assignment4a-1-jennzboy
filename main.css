@@ -33,6 +33,9 @@ body {
 .main .main__paragraph1:hover, .main .main__paragraph2:hover {
   color: pink;
 }
+.main .main__paragraph2:hover {
+  color: #ff652f;
+}
 @media (max-width: 800px) {
   .main {
     -webkit-box-orient: vertical;
