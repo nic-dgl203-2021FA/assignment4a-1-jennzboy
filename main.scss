@@ -42,6 +42,10 @@ body {
             color: pink;
         }
     }
+
+    @include mobile {
+        flex-direction: column;
+    }
 }
 
 .light {
